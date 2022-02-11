@@ -10,5 +10,6 @@ public class OutputEvenOddNumber {
         } else {
             System.out.print("Entered number is an odd number");
         }
+        input.close();
     }
 }

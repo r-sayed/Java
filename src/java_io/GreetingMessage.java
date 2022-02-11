@@ -6,5 +6,6 @@ public class GreetingMessage {
         System.out.print("Enter your name: ");
         String nameOfPerson = input.nextLine();
         System.out.println("Welcome " + nameOfPerson + " to the world of programing");
+        input.close();
     }
 }
